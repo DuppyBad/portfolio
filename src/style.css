@@ -1,0 +1,28 @@
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'JetBrains Mono', sans-serif;
+  background-color: var(--ctp-mocha-base);
+}
+
+#title {
+    color: var(--ctp-mocha-text);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+
+}
+
+#box {
+  background-color: var(--ctp-mocha-lavender);
+  color: var(--ctp-mocha-mantle);
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
